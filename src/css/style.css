@@ -334,6 +334,12 @@ body {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  .card {
+    box-shadow: inset 0 100px 1000px 10px rgba(0, 0, 0, 0.8);
+  }
+  .card .project-info {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 600px) {
