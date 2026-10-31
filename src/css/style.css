@@ -292,7 +292,9 @@ body {
   }
 
   .nav-menu.active {
-    right: 20px;
+    right: 0;
+    width: 100%;
+    /* display: flex; */
   }
 
   .nav-menu .nav-link {
@@ -318,7 +320,7 @@ body {
   }
 
   .hamburger.active {
-    border: 1px dotted gray;
+    border: none;
   }
 
   .hamburger.active .bar:nth-child(2) {

@@ -55,24 +55,26 @@ h2::selection {
   cursor: pointer;
 }
 
-.toggle-icons>img {
+.toggle-icons > img {
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   width: 30px;
 }
 
-#switch+.toggle-icons .sun {
+#switch + .toggle-icons .sun {
   display: none;
 }
 
-#switch+.toggle-icons .moon {
+#switch + .toggle-icons .moon {
   display: flex;
+  margin-top: 4px;
+  justify-content: center;
 }
 
-#switch:checked+.toggle-icons .moon {
+#switch:checked + .toggle-icons .moon {
   display: none;
 }
 
-#switch:checked+.toggle-icons .sun {
+#switch:checked + .toggle-icons .sun {
   display: flex;
 }
 
@@ -86,7 +88,7 @@ h2::selection {
   padding: 1rem;
 }
 
-.header-container>div {
+.header-container > div {
   margin-top: 1rem;
 }
 
