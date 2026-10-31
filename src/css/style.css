@@ -64,6 +64,18 @@ a {
   color: var(--text-color);
 }
 
+/*  Prevent User Selection*/
+img,
+link,
+a,
+button,
+i,
+svg {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
 /* Main styling */
 body {
   background: var(--bg-primary);
@@ -257,7 +269,8 @@ body {
   }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+}
 
 @media (max-width: 670px) {
   .navbar .nav-menu {
